@@ -20,8 +20,10 @@ public class App
     	driver=new ChromeDriver();
     			if(Url.equalsIgnoreCase("Google")) {
     				driver.get("https://www.google.co.in");
+    				System.out.println("https://www.google.co.in");
     			}else if(Url.equalsIgnoreCase("Facebook")) {
     				driver.get("https://www.facebook.com");
+    				System.out.println("https://www.facebook.com");
     			}
     }
     
