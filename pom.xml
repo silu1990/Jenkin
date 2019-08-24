@@ -24,7 +24,7 @@
                 <version>2.14.1</version>
                 <configuration>
                 	 <systemPropertyVariables>
-	                <Url>${Url}</Url>
+	                <Url>${project.Url}</Url>
 	          		</systemPropertyVariables>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
